@@ -5,10 +5,10 @@ from datetime import datetime, timedelta
 import csv
 import pandas as pd
 
-consumer_key = "Gg0FYnVBi1a9MeVR4cd7iBIHH"
-consumer_secret = "i3whWfXsPi5uNjAXwskSQKmZobfgezo4SmK4R8hfL6WkWZGfdM"
-access_token = "818938632782299136-VM0HUdQzBHdWsaWkXIfStkzSoKzRa0L"
-access_token_secret = "IcKhsxWvCnLVqp2iigRw4tdNVqMsxFNWkGt5kXfQKhcfH"
+consumer_key = YOUR_KEY
+consumer_secret = YOUR_KEY_SECRET
+access_token = YOUR_ACCESS_TOKEN
+access_token_secret = YOUR_ACCESS_TOKEN_SECRET
 
 # setup autentikasi
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)

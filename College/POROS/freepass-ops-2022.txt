@@ -1,8 +1,0 @@
-1. Buat sebuah file yaml docker-compose untuk (pilih salah satu) :
-   - Web Environment : Harus memiliki 1 Load Balancer, 1 Database Server, 1 Web Server 
-   - Streaming Data : Harus memiliki 1 Kafka Server, 1 Zookeeper Server, serta tools lain untuk memproses data yang diperoleh tersebut
-   Ketentuan : cukup pilih salah satu, kemudian pastikan semua service bisa berjalan dan diakses dari luar container dan file docker-compose yang telah dibuat harus bisa digunakan user tanpa harus melakukan konfigurasi apapun lagi
-
-2. Buatlah sebuah Dockerfile untuk membuat Docker Image yang berisikan 
-   
-
